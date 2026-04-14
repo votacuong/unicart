@@ -1,0 +1,1 @@
+<?php VLang::__e('SYSTEM_THANKYOU');?>
