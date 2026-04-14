@@ -1,0 +1,39 @@
+CRITICAL - 2026-02-01 02:09:26 --> Twilio\Exceptions\RestException: [HTTP 401] Unable to create record: Authenticate
+[Method: POST, Route: cart/complete_payment]
+in ROOTPATH\sms\twilio-php-main\src\Twilio\Version.php on line 88.
+ 1 ROOTPATH\sms\twilio-php-main\src\Twilio\Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to create record')
+ 2 ROOTPATH\sms\twilio-php-main\src\Twilio\Rest\Api\V2010\Account\MessageList.php(116): Twilio\Version->create('POST', '/Accounts/AC74a1ae1b36a167b27769ab66294d9221/Messages.json', [], [...], [...])
+ 3 APPPATH\Controllers\CartController.php(680): Twilio\Rest\Api\V2010\Account\MessageList->create('+61481611125', Object(Twilio\Values))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->complete_payment()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-02-01 02:10:52 --> Twilio\Exceptions\RestException: [HTTP 401] Unable to create record: Authenticate
+[Method: POST, Route: cart/complete_payment]
+in ROOTPATH\sms\twilio-php-main\src\Twilio\Version.php on line 88.
+ 1 ROOTPATH\sms\twilio-php-main\src\Twilio\Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to create record')
+ 2 ROOTPATH\sms\twilio-php-main\src\Twilio\Rest\Api\V2010\Account\MessageList.php(116): Twilio\Version->create('POST', '/Accounts/AC74a1ae1b36a167b27769ab66294d9221/Messages.json', [], [...], [...])
+ 3 APPPATH\Controllers\CartController.php(680): Twilio\Rest\Api\V2010\Account\MessageList->create('+61481611125', Object(Twilio\Values))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->complete_payment()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-02-01 02:17:16 --> Twilio\Exceptions\RestException: [HTTP 401] Unable to create record: Authenticate
+[Method: POST, Route: cart/complete_payment]
+in ROOTPATH\sms\twilio-php-main\src\Twilio\Version.php on line 88.
+ 1 ROOTPATH\sms\twilio-php-main\src\Twilio\Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to create record')
+ 2 ROOTPATH\sms\twilio-php-main\src\Twilio\Rest\Api\V2010\Account\MessageList.php(116): Twilio\Version->create('POST', '/Accounts/AC74a1ae1b36a167b27769ab66294d9221/Messages.json', [], [...], [...])
+ 3 APPPATH\Controllers\CartController.php(680): Twilio\Rest\Api\V2010\Account\MessageList->create('+61481611125', Object(Twilio\Values))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->complete_payment()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')

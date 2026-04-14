@@ -1,0 +1,48 @@
+CRITICAL - 2026-01-25 02:50:16 --> ErrorException: Cannot redeclare adddate() (previously declared in D:\x8\htdocs\thecup\app\Helpers\Common_helper.php:158)
+[Method: GET, Route: order/storepayment]
+in ROOTPATH\native\components\helper.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-25 02:51:01 --> ErrorException: Cannot redeclare adddate() (previously declared in D:\x8\htdocs\thecup\app\Helpers\Common_helper.php:158)
+[Method: GET, Route: order/storepayment]
+in ROOTPATH\native\components\helper.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-25 02:51:30 --> ErrorException: Cannot declare class AppConfig, because the name is already in use
+[Method: GET, Route: order/storepayment]
+in ROOTPATH\native\components\AppConfig.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-25 02:51:52 --> ErrorException: Cannot declare class AppConfig, because the name is already in use
+[Method: GET, Route: order/storepayment]
+in ROOTPATH\native\components\AppConfig.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-01-25 02:56:07 --> ErrorException: Undefined variable $account_status
+[Method: GET, Route: order/storepayment]
+in APPPATH\Views\front-end\order\storepayment.php on line 40.
+ 1 APPPATH\Views\front-end\order\storepayment.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $account_status', 'D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\order\\storepayment.php', 40)
+ 2 APPPATH\Views\front-end\main.php(12): include('D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\order\\storepayment.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 6 APPPATH\Controllers\OrderController.php(395): view('front-end/main', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderController->storepayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-25 02:56:30 --> ErrorException: Undefined variable $account_status
+[Method: GET, Route: order/storepayment]
+in APPPATH\Views\front-end\order\storepayment.php on line 40.
+ 1 APPPATH\Views\front-end\order\storepayment.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $account_status', 'D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\order\\storepayment.php', 40)
+ 2 APPPATH\Views\front-end\main.php(12): include('D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\order\\storepayment.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 6 APPPATH\Controllers\OrderController.php(395): view('front-end/main', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OrderController->storepayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')

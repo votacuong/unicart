@@ -1,0 +1,31 @@
+CRITICAL - 2026-01-22 07:17:56 --> ErrorException: Undefined array key "store_name"
+[Method: GET, Route: user/signup]
+in APPPATH\Views\front-end\login\signup.php on line 333.
+ 1 APPPATH\Views\front-end\login\signup.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "store_name"', 'D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\login\\signup.php', 333)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\login\\signup.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/login/signup', [], true)
+ 5 APPPATH\Controllers\UserController.php(188): view('front-end/login/signup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-22 08:23:04 --> ErrorException: Undefined property: Config\AppConfig::$PUSH_CREDENTIAL_SIDPUSH_CREDENTIAL_SID
+[Method: GET, Route: admin/settings]
+in APPPATH\Views\back-end\setting\index.php on line 107.
+ 1 APPPATH\Views\back-end\setting\index.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\AppConfig::$PUSH_CREDENTIAL_SIDPUSH_CREDENTIAL_SID', 'D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\setting\\index.php', 107)
+ 2 APPPATH\Views\back-end\main.php(17): include('D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\setting\\index.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\main.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back-end/main', [], true)
+ 6 APPPATH\Controllers\AdminSettingController.php(66): view('back-end/main', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminSettingController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminSettingController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')

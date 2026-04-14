@@ -1,0 +1,41 @@
+CRITICAL - 2026-01-26 01:07:18 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Expired API Key provided: sk_live_*********************************************************************************************OGlqDr"
+[Method: GET, Route: order/Expired%20API%20Key%20provided:%20sk_live_%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2A%2AOGlqDr]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('order/Expired API Key provided: sk_live_*********************************************************************************************OGlqDr')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('order/Expired API Key provided: sk_live_*********************************************************************************************OGlqDr')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-26 08:09:06 --> ErrorException: Undefined array key "promotion"
+[Method: GET, Route: user/signup]
+in APPPATH\Views\front-end\login\signup.php on line 358.
+ 1 APPPATH\Views\front-end\login\signup.php(358): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "promotion"', 'D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\login\\signup.php', 358)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\login\\signup.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/login/signup', [], true)
+ 5 APPPATH\Controllers\UserController.php(188): view('front-end/login/signup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-26 08:10:15 --> ErrorException: Undefined array key "promotion"
+[Method: GET, Route: user/signup]
+in APPPATH\Views\front-end\login\signup.php on line 358.
+ 1 APPPATH\Views\front-end\login\signup.php(358): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "promotion"', 'D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\login\\signup.php', 358)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\x8\\htdocs\\thecup\\app\\Views\\front-end\\login\\signup.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/login/signup', [], true)
+ 5 APPPATH\Controllers\UserController.php(190): view('front-end/login/signup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->signup()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')

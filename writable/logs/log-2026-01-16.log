@@ -1,0 +1,36 @@
+CRITICAL - 2026-01-16 01:39:07 --> ErrorException: Undefined variable $AdminUserModel
+[Method: POST, Route: user/edit]
+in APPPATH\Controllers\UserController.php on line 536.
+ 1 APPPATH\Controllers\UserController.php(536): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AdminUserModel', 'D:\\x7\\htdocs\\thecup\\app\\Controllers\\UserController.php', 536)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-16 01:41:32 --> ErrorException: Undefined variable $AdminUserModel
+[Method: POST, Route: user/edit]
+in APPPATH\Controllers\UserController.php on line 494.
+ 1 APPPATH\Controllers\UserController.php(494): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AdminUserModel', 'D:\\x7\\htdocs\\thecup\\app\\Controllers\\UserController.php', 494)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-16 04:42:56 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: store/edit]
+in APPPATH\Views\front-end\store\edit.php on line 610.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 4 APPPATH\Controllers\StoreController.php(356): view('front-end/main', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\StoreController->edit()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StoreController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')

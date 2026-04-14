@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="urn:schemas-microsoft-com:office:excel2" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+ <x:ExcelWorkbook>
+  <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <o:DocumentProperties>
+  <o:Title>Site Map&lt;/title&gt;</o:Title>
+ </o:DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S21">
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+   <ss:Interior ss:Color="#000000" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S22">
+   <ss:Font ss:Color="#666666" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S23">
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S24">
+   <ss:Font ss:Color="#FFFFFF" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S25">
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+   <ss:Interior ss:Color="#FFFFFF" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S26">
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S27">
+   <ss:Alignment ss:Horizontal="Center" />
+   <ss:Font ss:Color="#FFFFFF" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S28">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="1" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S29">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="2" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S30">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="3" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S31" ss:Name="Hyperlink">
+   <ss:Alignment />
+   <ss:Borders />
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+   <ss:Interior />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+  <Style ss:ID="S32" ss:Parent="S31">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="3" />
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S33">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="4" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S34" ss:Parent="S31">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="4" />
+   <ss:Font ss:Color="#0000FF" ss:FontName="Arial" ss:Size="10" ss:Underline="Single" />
+  </Style>
+  <Style ss:ID="S35">
+   <ss:Alignment ss:Horizontal="Left" ss:Indent="4" />
+   <ss:Font ss:Color="#000000" ss:FontName="Arial" ss:Size="10" />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="12.75" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="16" ss:ExpandedColumnCount="1">
+   <Row ss:Index="1">
+    <Cell ss:StyleID="S28"><Data ss:Type="String">Abbora</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2">
+    <Cell ss:StyleID="S28" />
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:StyleID="S29" />
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="S32" ss:HRef="https://www.abbora.com/"><Data ss:Type="String">Home</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:StyleID="S32" ss:HRef="https://www.abbora.com/store/find"><Data ss:Type="String">Store Find</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell ss:StyleID="S32" ss:HRef="https://www.abbora.com/about"><Data ss:Type="String">About Us</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell ss:StyleID="S32" ss:HRef="https://www.abbora.com/how-it-works"><Data ss:Type="String">How It Works</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell ss:StyleID="S32" ss:HRef="https://www.abbora.com/become-a-partner"><Data ss:Type="String">Become a Partner</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell ss:StyleID="S32" ss:HRef="https://www.abbora.com/privacy"><Data ss:Type="String">Privacy</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell ss:StyleID="S32" ss:HRef="https://www.abbora.com/abboralegal"><Data ss:Type="String">Legal</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell ss:StyleID="S32" ss:HRef="https://www.abbora.com/user/login"><Data ss:Type="String">Abbora Login</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:StyleID="S30" />
+   </Row>
+   <Row ss:Index="13">
+    <Cell ss:StyleID="S34" ss:HRef="https://www.abbora.com/user/login"><Data ss:Type="String">Login</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="14">
+    <Cell ss:StyleID="S34" ss:HRef="https://www.abbora.com/user/signup"><Data ss:Type="String">Signup</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="15">
+    <Cell ss:StyleID="S34" ss:HRef="https://www.abbora.com/user/lostpassword"><Data ss:Type="String">Lost Password</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="16">
+    <Cell ss:StyleID="S35"><ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Arial" html:Color="#000000" html:Size="10">Share the joy. One Abbora, endless connections. | Copyright © 2026  Copyright: abbora.com</Font></ss:Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup />
+   <Print>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

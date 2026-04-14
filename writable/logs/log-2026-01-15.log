@@ -1,0 +1,213 @@
+CRITICAL - 2026-01-15 01:37:15 --> Twilio\Exceptions\RestException: [HTTP 401] Unable to create record: Authenticate
+[Method: POST, Route: cart/complete_payment]
+in ROOTPATH\sms\twilio-php-main\src\Twilio\Version.php on line 88.
+ 1 ROOTPATH\sms\twilio-php-main\src\Twilio\Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to create record')
+ 2 ROOTPATH\sms\twilio-php-main\src\Twilio\Rest\Api\V2010\Account\MessageList.php(116): Twilio\Version->create('POST', '/Accounts/AC74a1ae1b36a167b27769ab66294d9221/Messages.json', [], [...], [...])
+ 3 APPPATH\Controllers\CartController.php(445): Twilio\Rest\Api\V2010\Account\MessageList->create('+61481611125', Object(Twilio\Values))
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->complete_payment()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-15 02:34:35 --> ErrorException: syntax error, unexpected '"' in D:\x7\htdocs\thecup\app/Language/countries/Arabic.ini on line 350
+
+[Method: GET, Route: card/dashboard]
+in APPPATH\Common.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'syntax error, unexpected \'"\' in D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini on line 350
+', 'D:\\x7\\htdocs\\thecup\\app\\Common.php', 37)
+ 2 APPPATH\Common.php(37): parse_ini_file('D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini')
+ 3 APPPATH\Views\front-end\components\navbar.php(3): VLang::__e('THECUP_LOGON')
+ 4 APPPATH\Views\front-end\main.php(5): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\components\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 8 APPPATH\Controllers\CardController.php(31): view('front-end/main', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CardController->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CardController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-15 02:35:10 --> ErrorException: syntax error, unexpected '=' in D:\x7\htdocs\thecup\app/Language/countries/Arabic.ini on line 353
+
+[Method: GET, Route: card/dashboard]
+in APPPATH\Common.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'syntax error, unexpected \'=\' in D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini on line 353
+', 'D:\\x7\\htdocs\\thecup\\app\\Common.php', 37)
+ 2 APPPATH\Common.php(37): parse_ini_file('D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini')
+ 3 APPPATH\Views\front-end\components\navbar.php(3): VLang::__e('THECUP_LOGON')
+ 4 APPPATH\Views\front-end\main.php(5): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\components\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 8 APPPATH\Controllers\CardController.php(31): view('front-end/main', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CardController->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CardController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-15 02:36:15 --> ErrorException: syntax error, unexpected '=' in D:\x7\htdocs\thecup\app/Language/countries/Arabic.ini on line 353
+
+[Method: GET, Route: card/dashboard]
+in APPPATH\Common.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'syntax error, unexpected \'=\' in D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini on line 353
+', 'D:\\x7\\htdocs\\thecup\\app\\Common.php', 37)
+ 2 APPPATH\Common.php(37): parse_ini_file('D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini')
+ 3 APPPATH\Views\front-end\components\navbar.php(3): VLang::__e('THECUP_LOGON')
+ 4 APPPATH\Views\front-end\main.php(5): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\components\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 8 APPPATH\Controllers\CardController.php(31): view('front-end/main', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CardController->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CardController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-15 02:36:33 --> ErrorException: syntax error, unexpected '=' in D:\x7\htdocs\thecup\app/Language/countries/Arabic.ini on line 353
+
+[Method: GET, Route: card/dashboard]
+in APPPATH\Common.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'syntax error, unexpected \'=\' in D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini on line 353
+', 'D:\\x7\\htdocs\\thecup\\app\\Common.php', 37)
+ 2 APPPATH\Common.php(37): parse_ini_file('D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini')
+ 3 APPPATH\Views\front-end\components\navbar.php(3): VLang::__e('THECUP_LOGON')
+ 4 APPPATH\Views\front-end\main.php(5): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\components\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 8 APPPATH\Controllers\CardController.php(31): view('front-end/main', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CardController->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CardController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-15 02:36:41 --> ErrorException: syntax error, unexpected end of file, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in D:\x7\htdocs\thecup\app/Language/countries/Arabic.ini on line 900
+
+[Method: GET, Route: card/dashboard]
+in APPPATH\Common.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'syntax error, unexpected end of file, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or \'"\' in D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini on line 900
+', 'D:\\x7\\htdocs\\thecup\\app\\Common.php', 37)
+ 2 APPPATH\Common.php(37): parse_ini_file('D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini')
+ 3 APPPATH\Views\front-end\components\navbar.php(3): VLang::__e('THECUP_LOGON')
+ 4 APPPATH\Views\front-end\main.php(5): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\components\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 8 APPPATH\Controllers\CardController.php(31): view('front-end/main', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CardController->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CardController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-15 02:36:53 --> ErrorException: syntax error, unexpected end of file, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in D:\x7\htdocs\thecup\app/Language/countries/Arabic.ini on line 897
+
+[Method: GET, Route: card/dashboard]
+in APPPATH\Common.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'syntax error, unexpected end of file, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or \'"\' in D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini on line 897
+', 'D:\\x7\\htdocs\\thecup\\app\\Common.php', 37)
+ 2 APPPATH\Common.php(37): parse_ini_file('D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini')
+ 3 APPPATH\Views\front-end\components\navbar.php(3): VLang::__e('THECUP_LOGON')
+ 4 APPPATH\Views\front-end\main.php(5): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\components\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 8 APPPATH\Controllers\CardController.php(31): view('front-end/main', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CardController->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CardController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-15 02:37:18 --> ErrorException: syntax error, unexpected end of file, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in D:\x7\htdocs\thecup\app/Language/countries/Arabic.ini on line 901
+
+[Method: GET, Route: card/dashboard]
+in APPPATH\Common.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'syntax error, unexpected end of file, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or \'"\' in D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini on line 901
+', 'D:\\x7\\htdocs\\thecup\\app\\Common.php', 37)
+ 2 APPPATH\Common.php(37): parse_ini_file('D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini')
+ 3 APPPATH\Views\front-end\components\navbar.php(3): VLang::__e('THECUP_LOGON')
+ 4 APPPATH\Views\front-end\main.php(5): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\components\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 8 APPPATH\Controllers\CardController.php(31): view('front-end/main', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CardController->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CardController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-15 02:37:32 --> ErrorException: syntax error, unexpected end of file, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in D:\x7\htdocs\thecup\app/Language/countries/Arabic.ini on line 897
+
+[Method: GET, Route: card/dashboard]
+in APPPATH\Common.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'syntax error, unexpected end of file, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or \'"\' in D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini on line 897
+', 'D:\\x7\\htdocs\\thecup\\app\\Common.php', 37)
+ 2 APPPATH\Common.php(37): parse_ini_file('D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini')
+ 3 APPPATH\Views\front-end\components\navbar.php(3): VLang::__e('THECUP_LOGON')
+ 4 APPPATH\Views\front-end\main.php(5): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\components\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 8 APPPATH\Controllers\CardController.php(31): view('front-end/main', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CardController->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CardController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-15 02:37:59 --> ErrorException: syntax error, unexpected '=' in D:\x7\htdocs\thecup\app/Language/countries/Arabic.ini on line 353
+
+[Method: GET, Route: card/dashboard]
+in APPPATH\Common.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'syntax error, unexpected \'=\' in D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini on line 353
+', 'D:\\x7\\htdocs\\thecup\\app\\Common.php', 37)
+ 2 APPPATH\Common.php(37): parse_ini_file('D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini')
+ 3 APPPATH\Views\front-end\components\navbar.php(3): VLang::__e('THECUP_LOGON')
+ 4 APPPATH\Views\front-end\main.php(5): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\components\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 8 APPPATH\Controllers\CardController.php(31): view('front-end/main', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CardController->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CardController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-01-15 02:38:50 --> ErrorException: syntax error, unexpected end of file, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or '"' in D:\x7\htdocs\thecup\app/Language/countries/Arabic.ini on line 901
+
+[Method: GET, Route: card/dashboard]
+in APPPATH\Common.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'syntax error, unexpected end of file, expecting TC_DOLLAR_CURLY or TC_QUOTED_STRING or \'"\' in D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini on line 901
+', 'D:\\x7\\htdocs\\thecup\\app\\Common.php', 37)
+ 2 APPPATH\Common.php(37): parse_ini_file('D:\\x7\\htdocs\\thecup\\app/Language/countries/Arabic.ini')
+ 3 APPPATH\Views\front-end\components\navbar.php(3): VLang::__e('THECUP_LOGON')
+ 4 APPPATH\Views\front-end\main.php(5): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\components\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(234): include('D:\\x7\\htdocs\\thecup\\app\\Views\\front-end\\main.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front-end/main', [], true)
+ 8 APPPATH\Controllers\CardController.php(31): view('front-end/main', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CardController->dashboard()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CardController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 ROOTPATH\index.php(7): require_once('D:\\x7\\htdocs\\thecup\\public\\index.php')

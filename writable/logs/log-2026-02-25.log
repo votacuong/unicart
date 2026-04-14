@@ -1,0 +1,21 @@
+CRITICAL - 2026-02-25 02:06:39 --> Error: Class "App\Controllers\BraintreeModel" not found
+[Method: GET, Route: admin/user/delete/33]
+in APPPATH\Controllers\AdminUserController.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminUserController->delete('33')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminUserController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-02-25 02:09:19 --> ErrorException: Undefined variable $UserModel
+[Method: GET, Route: admin/user/delete/33]
+in APPPATH\Controllers\AdminUserController.php on line 380.
+ 1 APPPATH\Controllers\AdminUserController.php(380): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UserModel', 'D:\\x8\\htdocs\\thecup\\app\\Controllers\\AdminUserController.php', 380)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminUserController->delete('33')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminUserController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')

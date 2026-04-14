@@ -1,0 +1,48 @@
+CRITICAL - 2026-02-27 08:58:47 --> ErrorException: Attempt to read property "customer_id" on null
+[Method: GET, Route: admin/order/orderdetailspdf/69]
+in APPPATH\Views\back-end\order\orderdetailspdf.php on line 7.
+ 1 APPPATH\Views\back-end\order\orderdetailspdf.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "customer_id" on null', 'D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\order\\orderdetailspdf.php', 7)
+ 2 APPPATH\Views\back-end\main.php(17): include('D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\order\\orderdetailspdf.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\main.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back-end/main', [], true)
+ 6 APPPATH\Controllers\AdminOrderController.php(100): view('back-end/main', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminOrderController->orderdetailspdf('69')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminOrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-02-27 08:58:53 --> ErrorException: Attempt to read property "customer_id" on null
+[Method: GET, Route: admin/order/orderdetailspdf/72]
+in APPPATH\Views\back-end\order\orderdetailspdf.php on line 7.
+ 1 APPPATH\Views\back-end\order\orderdetailspdf.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "customer_id" on null', 'D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\order\\orderdetailspdf.php', 7)
+ 2 APPPATH\Views\back-end\main.php(17): include('D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\order\\orderdetailspdf.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\main.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back-end/main', [], true)
+ 6 APPPATH\Controllers\AdminOrderController.php(100): view('back-end/main', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminOrderController->orderdetailspdf('72')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminOrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')
+CRITICAL - 2026-02-27 08:59:16 --> ErrorException: Attempt to read property "customer_id" on null
+[Method: GET, Route: admin/order/orderdetailspdf/84]
+in APPPATH\Views\back-end\order\orderdetailspdf.php on line 7.
+ 1 APPPATH\Views\back-end\order\orderdetailspdf.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "customer_id" on null', 'D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\order\\orderdetailspdf.php', 7)
+ 2 APPPATH\Views\back-end\main.php(17): include('D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\order\\orderdetailspdf.php')
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\x8\\htdocs\\thecup\\app\\Views\\back-end\\main.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back-end/main', [], true)
+ 6 APPPATH\Controllers\AdminOrderController.php(100): view('back-end/main', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminOrderController->orderdetailspdf('84')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminOrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 ROOTPATH\index.php(7): require_once('D:\\x8\\htdocs\\thecup\\public\\index.php')
