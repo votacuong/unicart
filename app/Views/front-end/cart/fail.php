@@ -1,1 +1,0 @@
-<?php VLang::__e('SYSTEM_FAIL');?>
